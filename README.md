@@ -11,12 +11,11 @@ Enables the Circuit Playground to display large numbers precisely.
 
 Can be used to display readings from sensors.
 
-If the decimal number is in range, it will blink green prior to showing the binary number. If a decimal number is out of range, it will blink red prior to showing the binary number.
+If the decimal number is not within range, it will blink red instead of showing the binary number.
 
 ## Usage
 
-open your Circuit Playground Makecode project, in Add Package, paste  
+Go to Extensions and search for Binary LEDs.
 
-https://makecode.com/_P5W0mdf5JHeA 
-
-to search box then search. 
+* for PXT/codal
+(The metadata above is needed for package search.)
