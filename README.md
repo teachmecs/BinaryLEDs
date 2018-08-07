@@ -1,24 +1,22 @@
-# binaryledsfinal
+# Display Binary Number Using LEDs
 
+Author: Rosemary Bianchi (Twitter: @teachmecs)  
+Date:   July 2018
 
+## Description
 
-## TODO
+Displays a binary value of a number between 0 and 1023 using the 10 LEDs in the LED Ring.
 
-- [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] Get your package reviewed and approved https://makecode.adafruit.com/packages/approval
+Enables the Circuit Playground to display large numbers precisely.
 
-Read more at https://makecode.adafruit.com/packages/build-your-own
+Can be used to display readings from sensors.
 
-## License
+If the decimal number is in range, it will blink green prior to showing the binary number. If a decimal number is out of range, it will blink red prior to showing the binary number.
 
+## Usage
 
+open your Circuit Playground Makecode project, in Add Package, paste  
 
-## Supported targets
+https://makecode.com/_P5W0mdf5JHeA 
 
-* for PXT/codal
-(The metadata above is needed for package search.)
-
+to search box then search. 
