@@ -12,6 +12,10 @@ You need to enter the project URL https://github.com/teachmecs/BinaryLEDs, hit r
 
 Displays a binary value of a number between 0 and 1023 using the 10 LEDs in the LED Ring enabling the Circuit Playground to display large numbers precisely. If the decimal number is not within range, it will blink red instead of showing the binary number.
 
+## Example Project
+
+[Binary LEDs Sample Project](https://makecode.com/_f9vK6YP6LMCv)
+
 ```project
     _f9vK6YP6LMCv
 ```
