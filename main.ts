@@ -59,6 +59,7 @@ namespace binary {
         }
     }
     function turnOnLEDs() {
+        light.setAll(0x000000)
         index = 0
         for (let value3 of binaryArray) {
             if (value3 == 1) {
