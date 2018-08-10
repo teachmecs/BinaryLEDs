@@ -53,13 +53,13 @@ namespace binary {
             errorBlink()
         } else {
             console.logValue("Decimal Number", decimalNumber)
+            light.setAll(0x000000)
             convertToBinary()
             binaryConsoleLog()
             turnOnLEDs()
         }
     }
     function turnOnLEDs() {
-        light.setAll(0x000000)
         index = 0
         for (let value3 of binaryArray) {
             if (value3 == 1) {
